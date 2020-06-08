@@ -1,0 +1,154 @@
+html, body {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.theme {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.block_search{
+    height: 30em;
+    position: relative
+}
+
+.block_search input, .block_search button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.block_search form {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.block_search input {
+  width: 600px;
+  height: 42px;
+  background: #F9F0DA;
+  padding-left: 15px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+}
+
+button {
+  height: 42px;
+  width: 80px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.block {
+  margin-top: 250px;
+}
+
+.list-rep{
+  margin-top: 20px;
+  width: 550px;
+  height: 200px;
+  background-color: white;
+  margin-left: 30%;
+  border: solid;
+}
+
+.rep-name {
+  margin: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nick-name {
+  display: flex;
+  justify-content: space-around;
+}
+
+.avatar_user {
+  width: 50px;
+  height: 50px;
+  border: solid;
+  border-radius: 100px;
+  margin-right: 450px;
+}
+
+.des {
+  margin-left: 15px;
+}
+
+.like{
+  margin-left: 15px;
+}
+.link {
+  margin-left: 15px;
+  text-decoration: none;
+  color:  black;
+}
+
+.card_user{
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  margin-left: 27%;
+  margin-top: 70px;
+  border-radius: 10px;
+}
+
+.card-btn {
+  margin: 15px;
+}
+
+.name-card {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  padding: 30px;
+}
+.login-card {
+  margin: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
+
+.lang-card {
+  margin: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
+
+.like-card {
+  margin: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
+
+.link-card {
+  margin: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.des-card {
+  margin: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
+
+.data-card {
+  margin: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
+
+
+
+
