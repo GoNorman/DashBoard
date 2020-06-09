@@ -1,5 +1,5 @@
 # DashBoard
-GitHub DashBoard API
+GitHub DashBoard API, test task
 
 Инструкция по развертыванию:
 
